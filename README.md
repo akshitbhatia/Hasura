@@ -56,11 +56,11 @@
 * Run dag with config:
     1. Enable the dag: _Hasura-Log-Metrics-Generator_
     2. Trigger dag w/config:
-       ![](examples/Screenshot 2022-08-23 at 3.26.47 PM.png)
+       ![](examples/Screenshot_2022-08-23_at_3.26.47_PM.png)
 
     3. Copy this dict: `{"start": "2022-07-30 00:01:00","end": "2022-07-31 23:59:00"}` and paste in the box, as show in
        the picture below and submit trigger button.
-       ![](examples/Screenshot 2022-08-23 at 3.27.50 PM.png)
+       ![](examples/Screenshot2022-08-23_at_3.27.50_PM.png)
     4. Dag is triggered with the time window mention above in the dict and it will generate the metrics according to the
        requirements mentioned.
 
@@ -68,13 +68,14 @@
 
 1. Click on dag: _Hasura-Log-Metrics-Generator_
 2. Click on graph view, as mentioed below:
-   ![](examples/Screenshot 2022-08-23 at 3.28.35 PM.png)
+   ![](examples/Screenshot_2022-08-23_at_3.28.35_PM.png)
 3. Go to task: _Data-Transfer-Per-project_ and click logs, you will see metrics in the log output, as mentioned below:
-   ![](examples/Screenshot 2022-08-23 at 3.28.48 PM.png)
+   ![](examples/Screenshot_2022-08-23_at_3.28.48_PM.png)
 4. Go to task: _Most-Time-Consuming-Per-Project_ and click logs, you will metrics in the log output, as mentioned below:
-   ![](examples/Screenshot 2022-08-23 at 3.29.02 PM.png)
+   ![](examples/Screenshot_2022-08-23_at_3.29.02_PM.png)
 
 _If you these log outputs, you successfuly ran the dag :)_
 
 ### Not to Turn off Airflow
-*   `sh airflow_off.sh`
+
+* `sh airflow_off.sh`
