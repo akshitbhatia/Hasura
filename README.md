@@ -76,6 +76,6 @@
 
 _If you these log outputs, you successfuly ran the dag :)_
 
-### Not to Turn off Airflow
+### To Turn off Airflow
 
 * `sh airflow_off.sh`
