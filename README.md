@@ -47,6 +47,9 @@
 ### Run Airflow (local)
 
 * `sh airflow_on.sh`
+*  if you see something like this in your terminal: 
+   `airflow-webserver_1  | 127.0.0.1 - - [--/--/----:--:--:-- +0000] "GET /health HTTP/1.1" 200 187 "-" "curl/7.64.0"`
+   open the URL below
 * `http://0.0.0.0:8080`
     * username: airflow
     * password: airflow
